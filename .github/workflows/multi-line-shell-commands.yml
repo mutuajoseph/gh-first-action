@@ -1,0 +1,10 @@
+name: Multi-line-shell-commands
+on: workflow_dispatch
+jobs:
+  multi-line-shell-commands-flow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: multi-line-commands
+        run: |
+            echo "First output"
+            echo "Second output"
